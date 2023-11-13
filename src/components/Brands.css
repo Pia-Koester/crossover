@@ -17,6 +17,13 @@
     margin-left: 4.5rem;
     margin-right: 4.5rem;
     margin-top:2rem;
+    display: flex;
+    align-items:center;
+
+}
+
+.brand img {
+    width:100%;
 
 }
 
@@ -28,3 +35,4 @@
 .brandhighlight {
     color:#FF6428;
 }
+
