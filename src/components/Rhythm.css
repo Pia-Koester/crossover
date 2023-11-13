@@ -1,0 +1,50 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+  }
+
+
+.rhythmsection {
+    position:absolute;
+    background-color:black;
+    width:1440px; 
+    max-width:100%;
+}
+
+.rhythmsection h2 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 2rem;
+}
+
+.rhythmsection h2 span {
+    color:#FF6428;
+}
+
+.reasons {
+    display:flex;
+    justify-content:space-around;
+    margin: 2rem;
+}
+
+.reasons h4{
+    color:white;
+    text-align:center;
+}
+
+.reasons p{
+    color:gray;
+    text-align:center;
+    text:0.4rem;
+    max-width:15rem;
+    line-height:1.2rem;
+}
+
+.rectangle {
+    color:deeppink;
+    width:4rem;
+    height:4rem;
+    margin:2rem;
+}
