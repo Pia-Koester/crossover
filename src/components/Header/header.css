@@ -1,0 +1,25 @@
+.header-content {
+    text-align: left;
+}
+
+.primary_button {
+    background-color: #FF6428;
+    border-radius: 40px;
+}
+
+.primary_color {
+    color: #FF6428;
+}
+
+.header-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo-circle{
+    width: 80px;
+    height: 80px;
+    margin-top: -50px;
+}
+

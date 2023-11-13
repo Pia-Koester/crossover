@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+}
+
+.logo-container{
+    display: flex;
+    width: 123px;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-container p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.563rem
+}
+
+.logo-container img{
+    width: 28px;
+    height: 28px;
+}
+
+.navlist-container {
+    font-family: 'Poppins', sans-serif;
+    width: 309px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navlist-container li{
+    list-style: none;
+}
