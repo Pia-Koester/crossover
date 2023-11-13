@@ -1,0 +1,59 @@
+body {
+    /* margin: auto; */
+    
+}
+
+footer {
+    background-color: white;
+    
+    max-width: 1440px;
+    
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1440px;
+    
+}
+
+.col1, .col2, .col3 {
+    flex-direction: column;
+    display: flex;
+   
+}
+
+.copyrights {
+    text-align: center;
+}
+
+.butterfly {
+    height: 40px;
+    width: 40px;
+    padding-right: 1rem;
+}
+
+.logo {
+    height: 32px;
+}
+
+.col1-flex {
+    display: flex;
+    align-items: center;
+}
+
+.col1-logo {
+height: 24px;
+width: 24px;
+padding-right: 1rem;
+}
+
+.MainBottom {
+    height: 508px;
+    display: flex;
+}
+
+.MainBottom-Container {
+    
+}
