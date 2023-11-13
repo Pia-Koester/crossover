@@ -5,6 +5,7 @@
 .brandlist {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     list-style-type: none;
     padding:1rem;
     margin:0;
@@ -13,8 +14,8 @@
 .brand {
     width: 150px;
     height: 100px;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
     margin-top:2rem;
 
 }
