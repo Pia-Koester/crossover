@@ -1,0 +1,29 @@
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+
+.brandlist {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding:1rem;
+    margin:0;
+}
+
+.brand {
+    width: 150px;
+    height: 100px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top:2rem;
+
+}
+
+.brandh2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.brandhighlight {
+    color:#FF6428;
+}
