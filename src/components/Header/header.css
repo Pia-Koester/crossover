@@ -5,6 +5,20 @@
 .primary_button {
     background-color: #FF6428;
     border-radius: 40px;
+    border: 1px solid transparent;
+    padding: 1rem 2rem;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    color: white;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
 }
 
 .primary_color {
@@ -17,9 +31,20 @@
   align-items: flex-start;
 }
 
+.background-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .logo-circle{
     width: 80px;
     height: 80px;
     margin-top: -50px;
+    margin-left: 150px;
+}
+
+.header-content{
+    padding: 2rem 6rem;
 }
 

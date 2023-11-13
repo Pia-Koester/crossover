@@ -14,9 +14,11 @@ export default function Header() {
                 <div className="header-content">
                 <h1>Browse top quality <span className="primary_color">Guitars</span> online</h1>
                 <p>Explore 50k+ latest collections of branded guitars online with Rhythm.</p>
-                <button className="primary_button">Get the App</button>
-                <img src="src/assets/android_small.png" alt="" />
-                <img src="src/assets/Apple _small.png" alt="" />
+                <div className="button-container">
+                    <button className="primary_button">Get the App</button>
+                    <img src="src/assets/android_small.png" alt="" />
+                    <img src="src/assets/Apple _small.png" alt="" />
+                </div>
             </div>
         </div>
             <div className="background-image">
