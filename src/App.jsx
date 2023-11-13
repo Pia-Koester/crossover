@@ -1,17 +1,19 @@
-// import { useState } from 'react'
+import './App.css'
+import Categories from './components/Categories'
+import Products from './components/Products'
 import './App.css'
 import MainBottomFooter from "./components/Footer/Index"
 
 function App() {
-  // const [count, setCount] = useState(0)
+
 
   return (
     <>
-    <MainBottomFooter />
-    {/* <Header />
+    
+    <Header />
     <Products/>
-    <Categories/> */}
-
+    <Categories/>
+    <MainBottomFooter />
     </>
   )
 }
