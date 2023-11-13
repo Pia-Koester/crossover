@@ -11,10 +11,36 @@
 .categories span{
   color:#FF6428;
 }
+.guitarCategories{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+}
 .categoriesChildren{
   position: relative;
+  transition: 0.5s ease;
+  cursor: pointer;
 }
+.categoriesChildren:hover{
+  background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+  radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+  radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+  radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+  linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+  linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+  linear-gradient(90deg, transparent 0%, #ff6428 100%);
+border-radius: 30px;
+padding: 9px;
+box-sizing: border-box;
+}
+
 .categoryName{
   position: absolute;
-  transform: translateX(50)
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: white;
+  font-weight: bold;
 }
+
