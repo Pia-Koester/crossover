@@ -13,7 +13,7 @@ export default function Products() {
       <div className="new">
       <div className="header">
       <p className='guitarHeader'>NEW ON THE BOARD</p>
-      <p>view all</p>
+      <p className='viewall'>view all</p>
 
       </div>
       <div className="guitars">
@@ -38,7 +38,7 @@ export default function Products() {
       <div className="new">
       <div className="header">
       <p className='guitarHeader'>Top Selling</p>
-      <p>view all</p>
+      <p className='viewall'>view all</p>
 
       </div>
       <div className="guitars">
