@@ -12,7 +12,15 @@
     font-family: inherit;
     cursor: pointer;
     color: white;
+    transition: 0.3s;
 }
+
+.primary_button:hover{
+    background-color: white;
+    border: 1px solid #FF6428;
+    color: #FF6428;
+}
+
 
 .button-container{
     display: flex;
@@ -35,6 +43,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: -2rem;
 }
 
 .logo-circle{
@@ -45,7 +54,11 @@
 }
 
 .header-content{
-    padding: 2rem 6rem;
-    max-width: 469px;
+    padding: 2rem 4rem;
+    max-width: 500px;
+}
+
+.header-content p{
+    padding-bottom: 2rem;
 }
 

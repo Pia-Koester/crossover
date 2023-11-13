@@ -32,6 +32,7 @@
 
 .navlist-container li{
     list-style: none;
+    opacity: 0.4;
 }
 
 .navlist-container li:hover{
