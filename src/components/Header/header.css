@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600;6..12,800&family=Poppins&display=swap');
+
 .header-content {
     text-align: left;
 }
@@ -9,7 +11,6 @@
     padding: 1rem 2rem;
     font-size: 1em;
     font-weight: 500;
-    font-family: inherit;
     cursor: pointer;
     color: white;
     transition: 0.3s;
@@ -43,7 +44,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: -2rem;
+    margin-bottom: 1rem;
 }
 
 .logo-circle{
@@ -62,3 +63,8 @@
     padding-bottom: 2rem;
 }
 
+
+.header-content h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 3.2rem;
+}
