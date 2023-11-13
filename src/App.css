@@ -2,6 +2,17 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 2rem;
+  font-family: "roboto";
   /* text-align: center; */
+}
+
+h2 {
+  font-size: 44px;
+  font-weight: 600;
+}
+
+p {
+  color: #666666;
+  font-size: 16px;
 }
 

@@ -8,6 +8,10 @@ function App() {
   return (
     <>
     <MainBottomFooter />
+    {/* <Header />
+    <Products/>
+    <Categories/> */}
+
     </>
   )
 }

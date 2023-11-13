@@ -5,8 +5,11 @@ body {
 
 footer {
     background-color: white;
-    
-    max-width: 1440px;
+    background-color: #EEEEEE;
+    /* max-width: 1440px; */
+    padding: 0 5.5rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
     
 }
 
@@ -14,7 +17,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 1440px;
+    /* width: 1440px; */
     
 }
 
@@ -24,18 +27,22 @@ footer {
    
 }
 
-.copyrights {
+.copyrights p {
     text-align: center;
+    color: #6666669d;
+    padding-top: 40px;
 }
 
 .butterfly {
     height: 40px;
     width: 40px;
     padding-right: 1rem;
+    margin-top: 8px;
 }
 
 .logo {
     height: 32px;
+    padding-right: 30px;
 }
 
 .col1-flex {
@@ -50,10 +57,94 @@ padding-right: 1rem;
 }
 
 .MainBottom {
-    height: 508px;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.MainBottom2  {
+    /* justify-content: center; */
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+}
+
+.customerSay {
+    font-size: 24px;
+    line-height: 160%;
+    text-align: left;
+    padding-left: 10rem;
+    padding-right: 5rem;
+}
+
+.customertitel {
+    padding-bottom: 5rem;
+}
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.job {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #868686;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.subline {
+
+    padding-left: 10rem;
+    text-align: left;
+}
+
+.MainBottom2-Container {
+    display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .MainBottom-Container {
-    
+    width: 50%;
+}
+
+.orange {
+    color: #FF6428;
+}
+
+.MBTitel {
+    width: 80%;;
+}
+
+.rhythm {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.footerLink {
+    text-decoration: none;
+    padding-bottom: 20px;
+    color: #6666669d;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pcol1 {
+    color: #6666669d;
 }
