@@ -33,3 +33,7 @@
 .navlist-container li{
     list-style: none;
 }
+
+.navlist-container li:hover{
+    font-weight: bold;
+}
